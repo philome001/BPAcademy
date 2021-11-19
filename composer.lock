@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b08b4db766372192ff8410589437f005",
+    "content-hash": "9234de511d053952ddf7d1ada8825ed8",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -8011,9 +8011,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "symfony/polyfill-mbstring": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
