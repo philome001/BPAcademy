@@ -12,7 +12,7 @@
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.3",
-        "symfony/polyfill-mbstring": "^1.23"
+        "symfony/polyfill-mbstring": "dev-main"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
