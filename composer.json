@@ -2,7 +2,10 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
     "license": "MIT",
     "require": {
         "php": "^7.1|^8.0",
@@ -15,9 +18,7 @@
         "symfony/polyfill-mbstring": "^1.18",
         "symfony/polyfill-php80": "^1.23"
     },
-    
     "require-dev": {
-        "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.4",
@@ -56,16 +57,13 @@
             "dont-discover": []
         }
     },
-    "replace": {  
-        "symfony/polyfill-php72": "*" 
-        
+    "replace": {
+        "symfony/polyfill-php72": "*"
     },
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true
-        
-
     },
     "minimum-stability": "dev",
     "prefer-stable": true
