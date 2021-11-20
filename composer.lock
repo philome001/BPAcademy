@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3077a200f42b57b898a8815da7213c1",
+    "content-hash": "51c0a20088a99bfc25024dd337bb5e33",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2997,7 +2997,15 @@
                 "reference": "d4e409d9fbcfbf71af0e5a940abb7b0b4bad0bd3",
                 "shasum": ""
             },
-         
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/deprecation-contracts": "^2.1",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php73": "^1.8",
+                "symfony/polyfill-php80": "^1.16",
+                "symfony/service-contracts": "^1.1|^2",
+                "symfony/string": "^5.1"
+            },
             "conflict": {
                 "psr/log": ">=3",
                 "symfony/dependency-injection": "<4.4",
@@ -3593,7 +3601,12 @@
                 "reference": "9f34f02e8a5fdc7a56bafe011cea1ce97300e54c",
                 "shasum": ""
             },
-         
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/deprecation-contracts": "^2.1",
+                "symfony/polyfill-mbstring": "~1.1",
+                "symfony/polyfill-php80": "^1.16"
+            },
             "require-dev": {
                 "predis/predis": "~1.0",
                 "symfony/cache": "^4.4|^5.0",
@@ -3773,7 +3786,13 @@
                 "reference": "a756033d0a7e53db389618653ae991eba5a19a11",
                 "shasum": ""
             },
-          
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/deprecation-contracts": "^2.1",
+                "symfony/polyfill-intl-idn": "^1.10",
+                "symfony/polyfill-mbstring": "^1.0",
+                "symfony/polyfill-php80": "^1.16"
+            },
             "conflict": {
                 "egulias/email-validator": "~3.0.0",
                 "phpdocumentor/reflection-docblock": "<3.2.2",
@@ -4893,7 +4912,14 @@
                 "reference": "d70c35bb20bbca71fc4ab7921e3c6bda1a82a60c",
                 "shasum": ""
             },
-           
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-ctype": "~1.8",
+                "symfony/polyfill-intl-grapheme": "~1.0",
+                "symfony/polyfill-intl-normalizer": "~1.0",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php80": "~1.15"
+            },
             "require-dev": {
                 "symfony/error-handler": "^4.4|^5.0",
                 "symfony/http-client": "^4.4|^5.0",
@@ -4969,7 +4995,13 @@
                 "reference": "6ef197aea2ac8b9cd63e0da7522b3771714035aa",
                 "shasum": ""
             },
-          
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/deprecation-contracts": "^2.1",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php80": "^1.16",
+                "symfony/translation-contracts": "^2.3"
+            },
             "conflict": {
                 "symfony/config": "<4.4",
                 "symfony/dependency-injection": "<5.0",
@@ -5136,7 +5168,11 @@
                 "reference": "875432adb5f5570fff21036fd22aee244636b7d1",
                 "shasum": ""
             },
-           
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php80": "^1.16"
+            },
             "conflict": {
                 "phpunit/phpunit": "<5.4.3",
                 "symfony/console": "<4.4"
