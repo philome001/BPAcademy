@@ -19,6 +19,7 @@
         "symfony/polyfill-php74": "^1.23",
         "symfony/polyfill-php80": "^1.23"
     },
+    
     "require-dev": {
         "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
@@ -59,11 +60,15 @@
             "dont-discover": []
         }
     },
+    "replace": {  
+        "symfony/polyfill-php72": "*"
+      
+    },
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true,
-        "platform-check": false
+        "sort-packages": true
+        
 
     },
     "minimum-stability": "dev",
